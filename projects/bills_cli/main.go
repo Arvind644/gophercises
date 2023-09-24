@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Ninjas")
+	mybill := newBill("mario's bill")
+
+	fmt.Println(mybill.format())
 }
